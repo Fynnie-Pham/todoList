@@ -1,0 +1,66 @@
+body {
+    margin: 0; 
+    overflow: hidden; 
+    background-color: #f4f4f4;
+    background-color: rgb(226, 204, 176);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    user-select: none;
+}
+
+img {
+    height: 90%;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+.container div {
+    position: relative;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 3% 0;
+    z-index: 5;
+}
+
+#welcome {
+    font-size: 20px; 
+}
+
+#button-StartNow {
+    font-size: 20px; /* Taille du texte pour le bouton */
+    color: white;    /* Couleur du bouton */
+    cursor: pointer;
+    background-color: #007BFF;
+    border: 5px #007BFF solid;
+    border-radius: 40px;
+}
+#messages{
+    width: 40%;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu td{
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 40px;
+}
